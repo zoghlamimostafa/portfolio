@@ -35,62 +35,109 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Mustapha Zoghlami",
+  tagline: " Mobile & Web Developer | Computer Engineer | Cybersecurity Enthusiast ", // Highlight mobile dev
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `Highly motivated and results-oriented Computer Engineer with a proven track record in leading teams, developing innovative solutions, and driving positive change. Extensive experience in Python programming, cybersecurity, network administration, cloud platforms (AWS, Azure, Google Cloud), and mobile development with React Native.`, // Mention React Native
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkedin: "https://www.linkedin.com/in/zogmus99/",
+  github: "https://github.com/zoghlamimostafa", // Add Mustapha's GitHub profile URL if available
+  twitter: "https://x.com/ZoghlamiMostafa", // Add Mustapha's Twitter profile URL if available
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Director",
+    Company: "Aether Trade LTD",
+    Location: "London, United Kingdom",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "August 2023 - Present",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Ecommerce Manager",
+    Company: "Electrotech",
+    Location: "Bizerte, Tunisia",
+    Type: "Full Time",
+    Duration: "July 2023 - August 2023",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Bachelor of Science in Computer Engineering (in progress)",
+    Company: "Faculty of Sciences of Bizerte",
+    Location: "Bizerte, Tunisia",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "2020 - 2023",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: "Google Cybersecurity Certificate",
+    Company: "Coursera",
+    Location: "Online",
+    Type: "Certification",
+    Duration: "2024", // Assuming completion year
+  },
+  {
+    Position: "Scientific Computing with Python",
+    Company: "FreeCodeCamp",
+    Location: "Online",
+    Type: "Certification",
+    Duration: "2023", 
   },
 ];
+
+
+
+// Enter your Project Details here (Based on provided resumes)
+export const projectDetails = [
+  {
+    title: "ESP-Streaming",
+    image: projectImage1, // Replace with actual image
+    description: "Set up an ESP32-CAM module as a web server to capture and serve JPEG images.",
+    techstack: "Python, ESP32",
+    githubLink: "https://github.com/zoghlamimostafa/Esp-streaming", // Replace with actual link
+  },
+  {
+    title: "Face Recognition",
+    image: projectImage2, // Replace with actual image
+    description: "Implemented a face recognition system using OpenCV, face recognition libraries, and Firebase.",
+    techstack: "Python, OpenCV, Firebase",
+    githubLink: "https://github.com/zoghlamimostafa/face-recognition", // Replace with actual link
+  },
+  {
+    title: "Unknown Face Alarm",
+    image: projectImage3, // Replace with actual image
+    description: "A Flutter application that detects unknown faces in a video stream or set of images.",
+    techstack: "Flutter, Python",
+    githubLink: "https://github.com/zoghlamimostafa/unknown-face-alarm", // Replace with actual link
+  },
+  {
+    title: "Mobile Expense Tracker (React Native) ",
+    image: projectImage4,
+    description: `A mobile app developed with React Native that allows users to track their daily expenses, set budgets, and visualize spending patterns.`,
+    techstack: "React Native, Firebase",
+    githubLink: "https://github.com/zoghlamimostafa/Expense-Tracker-React-Native-App", // Replace with actual link
+  },
+  {
+    title: "Portfolio Website (React)",
+    image: projectImage5,
+    description: `A personal portfolio website built with React to showcase my skills and projects.`,
+    techstack: "React, HTML/CSS, JavaScript",
+    previewLink: "https://your-portfolio-website.com", // Replace with actual link
+  },
+];
+
+// Enter your Contact Details here
+export const contactDetails = {
+  email: "zoghlamimustapha16@gmail.com",
+  phone: "+216 52994394",
+};
+
 
 // Tech Stack and Tools
 export const techStackDetails = {
@@ -108,68 +155,4 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
-};
-
-// Enter your Project Details here
-export const projectDetails = [
-  {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-];
-
-// Enter your Contact Details here
-export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
 };
